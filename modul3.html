@@ -1,0 +1,76 @@
+# Web-Programer
+Tugas Pendahuluan Modul 3 Tugas Pendahuluan Modul 3
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Profil Saya</title>
+    <style>
+        .row { display: flex; gap: 40px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Profil Saya</h1>
+        <div class="row">
+            <div class="column">
+                <b>Foto Profil</b><br>
+                <img src="c:\Users\Muhammad Alfa Razel\Pictures\Main\UPASS\IMG_0531.JPG" alt="Foto Profil" width="200">
+            </div>
+            <div class="column">
+                <b>Video Perkenalan</b><br>
+                <video width="250" controls>
+                    <source src="c:\Users\Muhammad Alfa Razel\Pictures\Camera Roll\WIN_20250927_23_58_28_Pro.mp4" type="video/mp4">
+                    Browser Anda tidak mendukung video.
+                </video>
+            </div>
+        </div>
+
+        <h2>Tentang Saya</h2>
+        <p>Halo!Saya Muhammad Alfa Razel, Mahasiswa Fakultas Informatika, Jurusan Teknologi Informasi,
+        memiliki kepribadian yang budah berbaur dengan hal-hal baru dan postif, dan memiliki minatdalam bidang teknologi terutama Fotografi, desain dan editing.</p>
+
+        <h2>Keterampilan</h2>
+        <table>
+            <tr>
+                <th>Keterampilan</th>
+                <th>Tingkat</th>
+            </tr>
+            <tr>
+                <td>UI/UX</td>
+                <td> Mahir</td>
+            </tr>
+            <tr>
+                <td>Web Desain</td>
+                <td>Menengah</td>
+            </tr>
+            <tr>
+                <td>Apps Desain</td>
+                <td>Menengah</td>
+            </tr>
+            
+        </table>
+
+        <h2>Hubungi Saya</h2>
+        <form>
+            <label for="nama">Nama:</label>
+            <input type="text" id="nama" name="nama">
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            <br>
+            <label for="pesan">Pesan:</label>
+            <textarea id="pesan" name="pesan" rows="3"></textarea>
+            <br>
+            <button type="submit">Kirim Pesan</button>
+        </form>
+
+        <h2>Media Sosial:</h2>
+        <div class="medsos">
+            <a href="https://www.linkedin.com/in/muhammad-alfa-razel" target="_blank">LinkedIn</a> |
+            <a href="https://github.com/muhammadalfarazel" target="_blank">GitHub</a> |
+            <a href="https://www.instagram.com/farazzell_?igsh=MWMzZWk4NG5lcjdlaw%3D%3D&utm_source=qr " target="_blank">Instagram</a>
+        </div>
+    </div>
+</body>
+</html>
